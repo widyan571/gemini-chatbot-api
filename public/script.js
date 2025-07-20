@@ -13,7 +13,7 @@ form.addEventListener('submit', async function (e) {
 
   // Simulasi dummy balasan bot (placeholder)
   setTimeout(() => {
-    appendMessage('bot', 'Gemini is thinking...');
+    appendMessage('bot', 'Gemini is thinking..');
   }, 1000);
 
   fetch('/api/chat', {
